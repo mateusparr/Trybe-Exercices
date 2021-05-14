@@ -1,0 +1,37 @@
+div{
+    width: 100%;
+}
+
+div:hover{
+    border: 5px solid black;
+}
+
+div:nth-child(3){
+    background-color: coral;
+    color: indigo;
+    font-style: italic;
+}
+
+div:nth-child(4){
+    background-color: red;
+    color: hotpink;
+}
+
+div:nth-child(5){
+    height: 100px;
+    background-color: blue;
+    color: green;
+    font-style: italic;
+
+}
+
+div:nth-child(6){
+    background-color: blueviolet;
+    color: royalblue;
+}
+
+div:nth-child(7){
+    background-color: chartreuse;
+    color: red;
+    font-style: italic;
+}
