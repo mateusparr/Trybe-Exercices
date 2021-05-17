@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+ol{
+    background-color: yellow;
+}
+
+ol li:nth-of-type(even){
+    color: green;
+}
+
+ol li:nth-of-type(prime){
+    text-transform: uppercase;
+}
+
+/* faltando text-transform nos números primos*/
+
+h1 , h3{
+    color: red;
+}
+
+li{
+    font-size: 20px;
+}
+
+/*faltando modificar fontes em itálico*/
+
+ul li:nth-child
