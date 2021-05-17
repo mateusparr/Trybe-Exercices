@@ -17,11 +17,9 @@ ol li:nth-of-type(even){
     color: green;
 }
 
-ol li:nth-of-type(prime){
+ol li:nth-of-type(odd){
     text-transform: uppercase;
 }
-
-/* faltando text-transform nos números primos*/
 
 h1 , h3{
     color: red;
@@ -31,5 +29,25 @@ li{
     font-size: 20px;
 }
 
-/*faltando modificar fontes em itálico*/
+.italico:nth-child(1){
+    font-size: 40px;
+    border: 1px solid black;
+}
 
+.li-italico{
+    font-weight: bold;
+}
+
+.linguagens p:nth-child(1), .linguagens p:nth-child(2), .linguagens p:nth-child(3){
+   color: blue;
+    
+}
+
+.linguagens .java{
+    background-color: pink;
+}
+
+.aliados a:hover{
+    font-weight: bold;
+    color: red;
+}
