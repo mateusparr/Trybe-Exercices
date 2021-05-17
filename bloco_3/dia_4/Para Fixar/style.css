@@ -52,3 +52,19 @@ h1 {
     left: 150px;
     top: -50px;
   }
+
+
+.first-prize{
+  text-align: center;
+  padding: 10px;
+}
+
+.second-prize{
+  text-align: center;
+  padding: 10px;
+}
+
+.third-prize{
+  text-align: center;
+  padding: 10px;
+}
