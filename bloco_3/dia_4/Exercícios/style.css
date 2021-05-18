@@ -31,7 +31,7 @@ header .logo{
 
 .index-menu{
     position: relative;
-    bottom: 40%;
+    bottom: 35%;
     padding: 0 2%;
     float: right;
 }
@@ -40,4 +40,54 @@ header .logo{
     text-decoration: none;
     color: black;
     font-size: 18px;
+}
+
+.general{
+    height: 800px;
+    padding: 0 2%;
+    background-color: brown;
+}
+
+.general h2{
+    padding-top: 40px;
+}
+
+.general img{
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    margin-top: 30px;
+}
+
+.general .description{
+    position: relative;
+    top: 250px;
+    width: 32%;
+    height: 45%;
+    float: left;
+    margin-top: 100px;
+
+}
+
+.description p{
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.general table{
+    position: relative;
+    top: -20px;
+    width: 60%;
+    height: 90%;
+    float: right;
+}
+
+.general table td{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.general table th{
+    text-align: left;
+    font-weight: 200;
 }
