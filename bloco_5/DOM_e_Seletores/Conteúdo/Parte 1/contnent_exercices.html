@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2 id="page-title">Título</h2>
+    <p id = "paragraph" class="paragraph">Dê uma cor para este parágrafo!</p>
+    <h4 id="subtitle">Subtítulo</h4>
+    <p id = "paragraph" class="paragraph">Segundo parágrafo!</p>
+
+    <script>      
+      document.querySelector('h2').innerText = 'Harry Potter';
+      
+      document.querySelector('h4').innerText = 'Relíquias da Morte';
+    
+      let paragrafos = document.querySelectorAll('p');
+      
+      for (let i = 0; i < paragrafos.length; i += 1) {
+        paragrafos[i].innerText = 'Aqui serão os dois parágrafos de mesma classe';
+        paragrafos[i].style.color = 'purple';
+      }
+      
+      document.getElementsByTagName('h4')[0].style.color = 'blue';
+    </script>
+  </body>
+</html>
