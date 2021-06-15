@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.head {
+    height: 6rem;
+    background-color: gray;
+}
+
+.image {
+    width: 5rem;
+    height: 5rem;
+}
+
+.title {
+    font-size: 30px;
+    color: white;
+}
+
+.signlink a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.firstsection {
+    width: 100%;
+}
+
+.firstsection p {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    font-size: 30px;
+    color: blue;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    height: 300px;
+    margin: 50px auto;
+    justify-content: space-around;
+}
+
+.css, .html, .js, .ruby, .react, .redux {
+    width: 220px;
+    height: 220px;
+    margin: 20px;
+}
