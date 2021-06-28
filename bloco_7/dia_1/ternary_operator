@@ -1,0 +1,6 @@
+SUBSTITUI IF/ELSE E SWITCH/Carousel
+
+a sintaxe do operador ternário é bem simples: x ? y : z .
+O x é uma condição que será avaliada como verdadeira ou falsa;
+O y é o retorno se a condição for verdadeira;
+O z é o retorno se a condição for falsa;

@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px;
+}
+
+p {
+    margin: 40px;
+    font-size: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    margin: 30px;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 30px;
+}
+
+@media screen and (min-width: 550px) {
+    img {
+        display: flex;
+        align-self: center;
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    p {
+        font-size: 30px;
+        margin: 60px;
+    }
+
+    h1, h2 {
+        font-size: 50px;
+    }
+
+    img {
+        width: 40%;
+    }
+}

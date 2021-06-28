@@ -1,0 +1,4 @@
+É uma feature do ES6 que nos permite criar strings de forma mais facil
+
+A sintaxe do template literals pede para usarmos o sinal de crases no início e no final da frase,
+ e variáveis dentro de um ${...} .

@@ -1,0 +1,14 @@
+const printName = function () {
+  const myName = "Lucas";
+  return myName;
+}
+console.log(printName());
+
+A expressão acima está correta. Mas como você verá nos exemplos a seguir,
+é possível deixá-la ainda mais direta e léxica. Você aprenderá com alguns exemplos as vantagens
+de usarmos mais essa novidade do Javascript ES6 - arrow functions .
+Uma das aplicações para arrow functions é em funções anônimas. 
+Em Javascript, é muito comum não precisarmos nomear funções, como mostrado no exemplo acima.
+Isso pode acontecer quando criamos funções que não serão reutilizadas,
+ou que serão passadas como argumento para uma outra função.
+Chamamos funções sem um nome específico de funções anônimas.
